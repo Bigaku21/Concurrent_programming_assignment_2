@@ -18,7 +18,7 @@ public class Field {
     }
 
     /* Block until car no. may safely enter tile at pos */
-    public void enter(int no, Pos pos) throws InterruptedException {
+    public void enter(int no, Pos pos) throws InterruptedException { 
     	field[pos.row][pos.col].P();
     }
 
